@@ -3,23 +3,40 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Oliver
-subtitle: "全栈工程师养成记"
-description: "全栈工程师养成记"
-keywords: 生活,读书,全栈,编程,爱好,折腾,随笔,外语
-author: Oliver
+title: Chih-Yung Chang
+subtitle: 互联网全会工程师
+description: 分析干货持续输出
+keywords: 前端,前端工程师,全栈工程师,干货分享,知识分享,效率,数据可视化,设计,p5.js,processing,3D,three.js,Notion,Obsidian,figma
+author: Chih-Yung Chang
 language: zh-CN
-timezone: ""
+timezone: Asia/Shanghai
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://codekid.tech
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://chihyungchang.github.io
 root: /
-permalink: posts/:title/
+# permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+
+# abbrlink config
+abbrlink:
+  alg: crc32 #support crc16(default) and crc32
+  rep: hex #support dec(default) and hex
+  drafts: false #(true)Process draft,(false)Do not process draft. false(default)
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: false #true(default)
+    depth: #3(default)
+    over_write: false
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -38,7 +55,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ""
+  exclude:
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -73,7 +90,7 @@ tag_map:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+meta_generator: false
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -82,7 +99,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: "mtime"
+updated_option: "date"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -99,8 +116,68 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+# theme: butterfly-stable
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ""
+  type: git
+  repo: git@github.com:jerryc127/butterfly-demo.git
+  branch: master
+  # other deployer
+
+search:
+  path: search.xml
+  field: post
+  content: true
+
+# aplayer:
+#   meting: true
+#   asset_inject: false
+
+# encrypt: # hexo-blog-encrypt
+#   abstract: Here's something encrypted, password is required to continue reading.
+#   message: Hey, password is required here.
+#   template: <div id="hexo-blog-encrypt" data-wpm="{{hbeWrongPassMessage}}" data-whm="{{hbeWrongHashMessage}}"><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="{{hbeMessage}}" /><label>{{hbeMessage}}</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="{{hbeHmacDigest}}">{{hbeEncryptedData}}</script></div>
+#   wrong_pass_message: Oh, this is an invalid password. Check and try again, please.
+#   wrong_hash_message: Oh, these decrypted content cannot be verified, but you can still have a look.
+
+# kramed:
+#   gfm: true
+#   pedantic: false
+#   sanitize: false
+#   tables: true
+#   breaks: true
+#   smartLists: true
+#   smartypants: true
+
+markdown_it_plus:
+  plugins:
+    - plugin:
+      name: "@neilsustc/markdown-it-katex"
+      enable: true
+      options:
+        strict: false
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+marked:
+  smartypants: false
+  descriptionLists: false
+
+server:
+  port: 3127
