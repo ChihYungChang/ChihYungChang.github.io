@@ -123,7 +123,7 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:ChihYungChang/ChihYungChang.github.io.git
-  branch: master
+  branch: gh-pages
   # other deployer
 
 search:
