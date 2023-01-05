@@ -4,7 +4,6 @@ top: false
 cover: /images/5XQk9gFlIAB2z3m.jpg
 toc: false
 mathjax: false
-date: 2020-09-26 10:55:02
 top_img: /images/5XQk9gFlIAB2z3m.jpg
 description: this 关键字是 JavaScript 中最复杂的机制之一。搞懂它有助于驾驭 JavaScript 这匹野马。
 tags:
@@ -13,7 +12,9 @@ tags:
 categories:
   - 前端
   - 读书笔记
-keywords: 前端, javascript, this, this关键字, this指向, 上下文, call, apply, bind, 你不知道的javascript
+keywords: '前端, javascript, this, this关键字, this指向, 上下文, call, apply, bind, 你不知道的javascript'
+abbrlink: 8e1f5ff5
+date: 2020-09-26 10:55:02
 ---
 
 # 前言

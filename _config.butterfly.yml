@@ -360,7 +360,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://btf-waline.crazywong.com # Waline server address url
+  serverURL: https://waline-blog-bay.vercel.app # Waline server address url
   bg: /img/comment_bg.png # waline background
   pageview: false
   option:
@@ -391,7 +391,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://btf-twikoo.vercel.app
+  envId:
   region:
   visitor: false
   option:
@@ -468,14 +468,14 @@ crisp:
 messenger:
   enable: false
   pageID:
-  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+  lang: zh_CN # Language en_US/zh_CN/zh_TW and so on
 
 # Footer Settings
 # --------------------------------------
 footer:
   owner:
     enable: true
-    since: 2019
+    since: 2020
   custom_text:
   copyright: true # Copyright of theme and framework
 
@@ -510,25 +510,23 @@ google_adsense:
   enable: true
   auto_ads: false
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-8919908724705274
+  client: ca-pub-1573468136362946
   enable_page_level_ads: true
 
 # Insert ads manually (手動插入廣告)
 ad:
-  index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8919908724705274" data-ad-slot="1538867630"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
-  aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8919908724705274" data-ad-slot="8108145410" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
-  post: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8919908724705274" data-ad-slot="5978969231"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  index: 
+  aside: 
+  post: 
 
 # Verification (站長驗證)
 # --------------------------------------
 
 site_verification:
   - name: google-site-verification
-    content: NdIUXAOVyGnnBhcrip0ksCawbdAzT0hlBZDE9u4jx6k
-  - name: msvalidate.01
-    content: 567E47D75E8DCF1282B9623AD914701E
+    content: KIY5S8tpguM8sOxE1eoKOp6XzGt_25ARO-HYMk_NuW
   - name: baidu-site-verification
-    content: code-pE5rnuxcfD
+    content: code-fP00WZ4RnV
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
@@ -685,7 +683,7 @@ subtitle:
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 1
+  source: 2
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     - 今日事&#44;今日畢
@@ -718,12 +716,12 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: 主題 GitHub
       link: https://github.com/jerryc127/hexo-theme-butterfly
   card_announcement:
-    enable: true
+    enable: false
     content:
       如果你在使用中遇到問題，請到 <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 或者 <a href="/messageboard/" style="color:#49b1f5">留言板</a> 進行反饋，你也可以加入 QQ 群（由於 QQ 群只能有 500 人，會定時清理潛水的人，不要同時申請 2 个 QQ 群）<div class="social-button">
       <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=KU9105XR" target="_blank">QQ 1 群 👍</a>
@@ -769,7 +767,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 2019/11/13 00:00:00
+  publish_date: 2023/01/01 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:

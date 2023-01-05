@@ -3,6 +3,6 @@ title: {{ title }}
 date: {{ date }}
 reward:
 description:
-top_img: 
+top_img:
 comments: false
 ---

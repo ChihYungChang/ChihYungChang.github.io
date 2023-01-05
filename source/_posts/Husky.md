@@ -4,7 +4,6 @@ cover: /images/1_83PZeBAFQkP1XyOfDigxsg.png
 top: false
 toc: false
 mathjax: false
-date: 2020-11-07 9:24:45
 top_img: /images/1_83PZeBAFQkP1XyOfDigxsg.png
 description: 如何让团队拥有更好的代码意识？如何使团队的代码风格近乎统一？如何防止错误的、不严谨的代码被提交？
 tags:
@@ -15,7 +14,12 @@ tags:
   - TypeScript
 categories:
   - 前端
-keywords: typescript, ts, git, githook, hook, eslint, prettier, husky, 代码质量, 代码风格, 前端规范, npm, node, git提交, git提交检查, 代码检查, git提交前检查, git提交前编译, 代码风格统一, 代码美化, 代码格式化, 前端工程化
+keywords: >-
+  typescript, ts, git, githook, hook, eslint, prettier, husky, 代码质量, 代码风格, 前端规范,
+  npm, node, git提交, git提交检查, 代码检查, git提交前检查, git提交前编译, 代码风格统一, 代码美化, 代码格式化,
+  前端工程化
+abbrlink: 74825e8a
+date: 2020-11-07 09:24:45
 ---
 
 # 前言

@@ -3,15 +3,16 @@ title: 入门Go语言学习笔记
 cover: /images/55a9aba97d1e214f849ab2e55f3dabff.jpeg
 toc: true
 mathjax: false
-date: 2020-08-25 22:54:11
 top_img: /images/55a9aba97d1e214f849ab2e55f3dabff.jpeg
-description:
 tags:
   - Golang
 categories:
   - 后端
   - 学习笔记
-keywords: 后端, golang, go, go语言, go学习笔记, 学习笔记, go入门, go入门笔记
+keywords: '后端, golang, go, go语言, go学习笔记, 学习笔记, go入门, go入门笔记'
+abbrlink: 9c5a7ac9
+date: 2020-08-25 22:54:11
+description:
 ---
 
 # 1. 编写第一个 Go 程序

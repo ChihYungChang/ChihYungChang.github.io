@@ -4,9 +4,7 @@ top: false
 cover: /images/WX20200822-223911@2x.png
 toc: false
 mathjax: false
-date: 2020-08-22 23:30:43
 top_img: /images/WX20200822-223911@2x.png
-description:
 tags:
   - Nuxt
   - Vue
@@ -14,7 +12,12 @@ tags:
 categories:
   - 前端
   - 我的项目
-keywords: api-client, request-client, axios, postman, postwoman, nuxt, vue, vuejs, nuxtjs, 代替postman, 接口测试, 接口调试, API测试, 接口调试工具
+keywords: >-
+  api-client, request-client, axios, postman, postwoman, nuxt, vue, vuejs,
+  nuxtjs, 代替postman, 接口测试, 接口调试, API测试, 接口调试工具
+abbrlink: 3685734b
+date: 2020-08-22 23:30:43
+description:
 ---
 
 # 1. 前言

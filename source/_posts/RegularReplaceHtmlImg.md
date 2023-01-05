@@ -1,11 +1,8 @@
 ---
 title: 微信小程序中使用正则表达式替换富文本中图片的宽度
 top: false
-cover:
 toc: false
 mathjax: false
-date: 2021-03-09 16:27:02
-top_img:
 description: 在开发微信小程序时，富文本渲染时图片
 tags:
   - TypeScript
@@ -14,7 +11,11 @@ tags:
   - 正则表达式
 categories:
   - 前端
-keywords: 前端, TypeScript, 正则表达式, 正则, 正则替换图片宽度, 微信小程序, 替换富文本中图片的宽度
+keywords: '前端, TypeScript, 正则表达式, 正则, 正则替换图片宽度, 微信小程序, 替换富文本中图片的宽度'
+abbrlink: aa0e4b
+date: 2021-03-09 16:27:02
+cover:
+top_img:
 ---
 
 ## 痛点

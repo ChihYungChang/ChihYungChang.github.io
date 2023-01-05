@@ -4,7 +4,6 @@ top: false
 cover: /images/1_JK4VDnsrF6YnAb2nyhMsdQ-2.png
 toc: false
 mathjax: false
-date: 2021-04-11 10:01:45
 top_img: /images/1_JK4VDnsrF6YnAb2nyhMsdQ-2.png
 description: docker compose 全栈项目
 tags:
@@ -18,7 +17,11 @@ tags:
 categories:
   - 前端
   - 我的项目
-keywords: TypeScript, Docker, Docker Compose, Nest.js, 微信小程序, Nginx, 爬虫, 云顶之弈, 全栈项目, github
+keywords: >-
+  TypeScript, Docker, Docker Compose, Nest.js, 微信小程序, Nginx, 爬虫, 云顶之弈, 全栈项目,
+  github
+abbrlink: ef48954d
+date: 2021-04-11 10:01:45
 ---
 
 ## 前言
