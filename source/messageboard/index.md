@@ -1,12 +1,12 @@
 ---
 title: 留言板
-date: 2019-04-14 18:30:38
+date: 2023-01-01 00:00:00
 comments: true
 description: 留言板
 top_img: https://fastly.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/messageboard.jpg
 ---
 
-<p style="font-size:1.72em;font-weight:bold;text-align: center">
+<!-- <p style="font-size:1.72em;font-weight:bold;text-align: center">
 Troubleshooting any problem without the error log <br> 
 is like driving with your eyes closed.<br>
 在沒有錯誤日誌的情況下診斷任何問題無異於閉眼開車
@@ -30,4 +30,4 @@ is like driving with your eyes closed.<br>
    如有報錯，請試着解決。或者在提問題之前附上報錯截圖。
 4. 詳細描述遇到的問題，附上相關的報錯/截圖/網址
 5. 請禮貌用語
-   {% endnote %}
+   {% endnote %} -->
